@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
-import "./styles.css";
+import "./style.css";
 
 const projects = [
   {
@@ -91,7 +91,7 @@ function App() {
             <p className="eyebrow">HELLO, I'M</p>
             <h1>Yabets Melese</h1>
             <h2>Frontend Developer</h2>
-            <p className="intro">I build clean, responsive, and user-friendly web interfaces, turning ideas into Reality digital experiences.</p>
+            <p className="intro">I build clean, responsive, and user-friendly web interfaces, turning ideas into Reality+ digital experiences.</p>
             <div className="hero-actions">
               <a href="#projects" className="button button-dark">View Projects</a>
               <a href="#contact" className="text-link">Contact Me <span aria-hidden="true">→</span></a>

@@ -1,16 +1,23 @@
-# React + Vite
+# Yabets Melese — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A minimal React + Vite portfolio with a black-and-white theme, responsive layout, subtle motion, and a persistent dark-mode toggle.
 
-Currently, two official plugins are available:
+## Run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Install Node.js.
+2. Open this folder in a terminal.
+3. Run `npm install`.
+4. Run `npm run dev`.
+5. Open the local URL printed by Vite.
 
-## React Compiler
+## Production build
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Run `npm run build`. Vite outputs the static production site to `dist/`.
 
-## Expanding the Oxlint configuration
+## Project structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- `index.html` — document metadata and React mount point
+- `src/main.jsx` — React components and page content
+- `src/styles.css` — responsive styling, themes, and animations
+
+The project list contains only the portfolio and the Apple website clone. Update the second project's GitHub URL to the specific repository when ready.
